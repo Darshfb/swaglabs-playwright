@@ -1,4 +1,4 @@
-# Swag Labs Test Automation
+# Swag Labs Test Automation using playwright
 
 ![AwesomeQa Logo](https://www.saucedemo.com/v1/img/Login_Bot_graphic.png)
 
