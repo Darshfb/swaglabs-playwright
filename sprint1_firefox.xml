@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browserName" value="firefox"/>
+    <test name="E2E scenario, from login to the site till complete an order using firefox" preserve-order="false">
+        <classes>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="loginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="testcases.TC02_Home">
+                <methods>
+                    <include name="addItemToCart"/>
+                </methods>
+            </class>
+            <class name="testcases.TC03_Cart">
+                <methods>
+                    <include name="navigateToCheckoutStepOne"/>
+                </methods>
+            </class>
+            <class name="testcases.TC04_CheckoutFirstStep">
+                <methods>
+                    <include name="enterToCheckoutPage"/>
+                </methods>
+            </class>
+            <class name="testcases.TC05_Checkout">
+                <methods>
+                    <include name="submitOrder"/>
+                </methods>
+            </class>
+            <class name="testcases.TC06_CheckoutComplete">
+                <methods>
+                    <include name="successOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
