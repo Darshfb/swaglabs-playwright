@@ -16,7 +16,7 @@
 
 ## Introduction
 
-This document outlines the automation testing plan for the Swag Labs, a web application for shopping.
+This document outlines the automation testing plan for the Swag Labs using playwright, a web application for shopping.
 
 
 ## Features
@@ -40,8 +40,9 @@ The scope of automation testing includes:
 
 ## Environment
 The test environment for automation testing is as follows:
-- Browser: Google Chrome Version 129.0.6668.101
-- Browser: Mozilla Firefox Version 130.0.1
+- Browser: chromium
+- Browser: Mozilla Firefox
+- Browser: webkit
 - Programming language: Java
 
 ## Installation
